@@ -58,7 +58,6 @@ def threadtotext(save_id):
 
 last_seen_id = retrieve_last_id(FILE)
 if last_seen_id == 0:
-    print("Ending the script.")
     sys.exit()
 else:
     mentions = api.mentions_timeline(last_seen_id, tweet_mode="extended")
