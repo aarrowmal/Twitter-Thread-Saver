@@ -1,0 +1,1 @@
+A script that uses Twitter API to save tweet threads in a suitable form for later consumption. The bot would save the thread and Direct Message those who have mentioned them at the end of the thread in a comment.
